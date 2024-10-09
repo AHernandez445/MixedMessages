@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.best{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}
+.button{
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    width: 50%;
+}
+.button:hover{
+   background-color: rgb(204, 204, 204); 
+}
